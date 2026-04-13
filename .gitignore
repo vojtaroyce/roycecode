@@ -1,0 +1,13 @@
+.roycecode/
+.roycecode-self/
+.plan/
+dist/
+node_modules/
+website/dist/
+.env
+.memories/
+website/.memories/
+website/.plan/
+docs/plans/
+target/
+reports/

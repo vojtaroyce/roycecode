@@ -1,0 +1,37 @@
+# RoyceCode
+
+Native Rust whole-codebase analysis for AI agents.
+
+RoyceCode analyzes mixed-language repositories, builds a semantic graph, and
+emits structured JSON artifacts for architectural triage and automated repair
+workflows.
+
+## Quick Start
+
+```bash
+cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode
+roycecode analyze /path/to/project
+cat /path/to/project/.roycecode/deterministic-analysis.json
+```
+
+## Primary Artifacts
+
+- `.roycecode/deterministic-analysis.json`
+- `.roycecode/semantic-graph.json`
+- `.roycecode/deterministic-findings.json`
+- `.roycecode/architecture-surface.json`
+- `.roycecode/roycecode-report.json`
+
+## Commands
+
+- `roycecode analyze <path>`
+- `roycecode report <path>`
+- `roycecode surface <path>`
+- `roycecode version`
+
+## Key Links
+
+- [README](https://github.com/vojtechhradsky/roycecode/blob/main/README.md)
+- [AI Agent Usage](https://github.com/vojtechhradsky/roycecode/blob/main/docs/AI_AGENT_USAGE.md)
+- [Architecture](https://github.com/vojtechhradsky/roycecode/blob/main/docs/ARCHITECTURE.md)
+- [Agent Instructions](https://github.com/vojtechhradsky/roycecode/blob/main/AGENTS.md)
